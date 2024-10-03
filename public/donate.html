@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation Form</title>
+    <link rel="stylesheet" href="../css/donate_form.css"> <!-- Ensure the correct path -->
+</head>
+<body>
+    <div class="alert-box">
+        <p class="alert"></p>
+    </div>
+
+    <div class="form">
+        <h1 class="heading">Donate Food</h1>
+        
+        <input type="text" placeholder="Your Name" class="name" required autocomplete="off" />
+        <input type="email" placeholder="Your Email" class="email" required autocomplete="off" />
+        
+        <textarea placeholder="Food Item(s)" class="food-item" required></textarea>
+        <textarea placeholder="Quantity" class="quantity" required></textarea>
+
+        <input type="text" placeholder="Address for Pickup" class="address" required autocomplete="off" />
+        <input type="text" placeholder="Contact Number" class="contact" required autocomplete="off" />
+        
+        <label for="expiry">Food Expiry Date:</label>
+        <input type="date" class="expiry" required />
+        
+        <button class="submit-btn">Submit Donation</button>
+        <a href="home.html" class="link">Back to Home</a>
+    </div>
+
+    <script src="../js/donate.js"></script> <!-- Ensure the correct path -->
+</body>
+</html>
